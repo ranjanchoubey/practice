@@ -3,6 +3,10 @@ course: gate-da-prob-stats
 slug: 02-probability-axioms
 date: "2026-06-21"
 
-# Add question IDs here when you have questions for this topic
-questions: []
-  # - Q101
+sections:
+  - heading: "Sample Space & Events"
+    questions: [Q101, Q102, Q103]
+  - heading: "Axioms & Addition Rule"
+    questions: [Q104, Q105, Q106, Q107]
+  - heading: "Equally Likely Outcomes"
+    questions: [Q108, Q109, Q110]

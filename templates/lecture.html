@@ -49,11 +49,12 @@
     .site-header {
       background: var(--surface);
       border-bottom: 1px solid var(--border);
-      padding: 1.5rem 2rem;
+      padding: 1.5rem 0;
     }
     .header-inner {
       max-width: 1120px;
-      margin: 0 auto;
+      margin: 0 auto 0 max(2rem, calc((100vw - 1120px) * 0.3));
+      padding: 0 2rem;
     }
     .breadcrumb {
       font-size: 0.72rem;
@@ -122,7 +123,7 @@
     ───────────────────────────────────── */
     .page-layout {
       max-width: 1120px;
-      margin: 0 auto;
+      margin: 0 auto 0 max(2rem, calc((100vw - 1120px) * 0.3));
       padding: 2rem 2rem 6rem;
     }
     .page-layout.with-sidebar {
@@ -366,9 +367,11 @@
        RESPONSIVE
     ───────────────────────────────────── */
     @media (max-width: 860px) {
+      .header-inner { margin: 0; padding: 0 1rem; }
       .page-layout,
       .page-layout.with-sidebar {
         display: block;
+        margin: 0;
         padding: 0 0 4rem;
       }
       .sidebar {
@@ -412,7 +415,7 @@
     }
 
     @media (max-width: 560px) {
-      .site-header { padding: 1rem 0.75rem; }
+      .site-header { padding: 1rem 0; }
       .page-title { font-size: 1.2rem; }
       .main-content { padding: 1rem 0.5rem 0; }
       .q-card { padding: 1rem 0.85rem; }

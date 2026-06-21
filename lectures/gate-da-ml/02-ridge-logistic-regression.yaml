@@ -3,6 +3,10 @@ course: gate-da-ml
 slug: 02-ridge-logistic-regression
 date: "2026-06-21"
 
-# Add question IDs here when you have questions for this topic
-questions: []
-  # - Q201
+sections:
+  - heading: "Ridge Regression"
+    questions: [Q1001, Q1002, Q1003]
+  - heading: "Logistic Regression"
+    questions: [Q1004, Q1005, Q1006, Q1007, Q1008]
+  - heading: "Decision Boundary and Regularisation"
+    questions: [Q1009, Q1010]

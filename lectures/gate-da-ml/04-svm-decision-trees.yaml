@@ -1,8 +1,12 @@
-title: "Support Vector Machine and Decision Trees"
+title: "Support Vector Machines and Decision Trees"
 course: gate-da-ml
 slug: 04-svm-decision-trees
 date: "2026-06-21"
 
-# Add question IDs here when you have questions for this topic
-questions: []
-  # - Q201
+sections:
+  - heading: "SVM — Hard and Soft Margin"
+    questions: [Q1201, Q1202, Q1203]
+  - heading: "Kernel Trick"
+    questions: [Q1204, Q1205]
+  - heading: "Decision Trees"
+    questions: [Q1206, Q1207, Q1208, Q1209, Q1210]

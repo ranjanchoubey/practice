@@ -1,8 +1,12 @@
-title: "Clustering — k-Means, k-Medoid and Hierarchical"
+title: "Clustering — K-Means and Hierarchical"
 course: gate-da-ml
 slug: 07-clustering
 date: "2026-06-21"
 
-# Add question IDs here when you have questions for this topic
-questions: []
-  # - Q201
+sections:
+  - heading: "K-Means"
+    questions: [Q1501, Q1502, Q1503, Q1504]
+  - heading: "Hierarchical Clustering"
+    questions: [Q1505, Q1506, Q1507, Q1508]
+  - heading: "Cluster Evaluation"
+    questions: [Q1509, Q1510]

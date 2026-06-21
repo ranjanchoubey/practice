@@ -1,8 +1,12 @@
-title: "Discrete Distributions — Uniform, Bernoulli, Binomial"
+title: "Discrete Probability Distributions"
 course: gate-da-prob-stats
 slug: 05-discrete-distributions
 date: "2026-06-21"
 
-# Add question IDs here when you have questions for this topic
-questions: []
-  # - Q101
+sections:
+  - heading: "Binomial Distribution"
+    questions: [Q401, Q402, Q403, Q404]
+  - heading: "Poisson Distribution"
+    questions: [Q405, Q406, Q407]
+  - heading: "Geometric Distribution"
+    questions: [Q408, Q409, Q410]

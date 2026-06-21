@@ -1,8 +1,12 @@
-title: "Bias-Variance Trade-off and Cross-Validation"
+title: "Bias-Variance Tradeoff and Cross-Validation"
 course: gate-da-ml
 slug: 05-bias-variance-cv
 date: "2026-06-21"
 
-# Add question IDs here when you have questions for this topic
-questions: []
-  # - Q201
+sections:
+  - heading: "Bias-Variance Decomposition"
+    questions: [Q1301, Q1302, Q1303]
+  - heading: "Regularisation"
+    questions: [Q1304, Q1308, Q1309]
+  - heading: "Cross-Validation"
+    questions: [Q1305, Q1306, Q1307, Q1310]

@@ -1,8 +1,12 @@
-title: "KNN, Naive Bayes and Linear Discriminant Analysis"
+title: "K-Nearest Neighbours, Naive Bayes, and LDA"
 course: gate-da-ml
 slug: 03-knn-naive-bayes-lda
 date: "2026-06-21"
 
-# Add question IDs here when you have questions for this topic
-questions: []
-  # - Q201
+sections:
+  - heading: "KNN"
+    questions: [Q1101, Q1102, Q1103, Q1104]
+  - heading: "Naive Bayes"
+    questions: [Q1105, Q1106, Q1107]
+  - heading: "LDA"
+    questions: [Q1108, Q1109, Q1110]

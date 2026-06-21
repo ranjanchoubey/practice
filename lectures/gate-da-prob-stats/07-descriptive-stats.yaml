@@ -1,8 +1,12 @@
-title: "Mean, Median, Mode, Std Dev, Correlation and Covariance"
+title: "Descriptive Statistics"
 course: gate-da-prob-stats
 slug: 07-descriptive-stats
 date: "2026-06-21"
 
-# Add question IDs here when you have questions for this topic
-questions: []
-  # - Q101
+sections:
+  - heading: "Measures of Central Tendency"
+    questions: [Q601, Q602, Q603, Q604]
+  - heading: "Measures of Dispersion"
+    questions: [Q605, Q606, Q607]
+  - heading: "Correlation & Covariance"
+    questions: [Q608, Q609, Q610]

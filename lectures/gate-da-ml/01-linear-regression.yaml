@@ -3,6 +3,10 @@ course: gate-da-ml
 slug: 01-linear-regression
 date: "2026-06-21"
 
-# Add question IDs here when you have questions for this topic
-questions: []
-  # - Q201
+sections:
+  - heading: "Simple Linear Regression"
+    questions: [Q901, Q902, Q903]
+  - heading: "Model Evaluation"
+    questions: [Q904, Q905, Q906]
+  - heading: "Gradient Descent"
+    questions: [Q907, Q908, Q909, Q910]

@@ -3,6 +3,10 @@ course: gate-da-prob-stats
 slug: 08-clt-confidence
 date: "2026-06-21"
 
-# Add question IDs here when you have questions for this topic
-questions: []
-  # - Q101
+sections:
+  - heading: "Central Limit Theorem"
+    questions: [Q701, Q702, Q703, Q704]
+  - heading: "Confidence Intervals"
+    questions: [Q705, Q706, Q707, Q708]
+  - heading: "Sample Size Determination"
+    questions: [Q709, Q710]

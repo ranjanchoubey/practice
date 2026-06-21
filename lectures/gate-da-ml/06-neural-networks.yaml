@@ -1,8 +1,12 @@
-title: "Multi-layer Perceptron and Feedforward Neural Networks"
+title: "Neural Networks and Multi-Layer Perceptron"
 course: gate-da-ml
 slug: 06-neural-networks
 date: "2026-06-21"
 
-# Add question IDs here when you have questions for this topic
-questions: []
-  # - Q201
+sections:
+  - heading: "Architecture and Activation"
+    questions: [Q1401, Q1402, Q1403, Q1404]
+  - heading: "Backpropagation"
+    questions: [Q1405, Q1406]
+  - heading: "Training"
+    questions: [Q1407, Q1408, Q1409, Q1410]

@@ -1,8 +1,12 @@
-title: "Continuous Distributions — Exponential, Poisson, Normal, t, Chi-Squared"
+title: "Continuous Probability Distributions"
 course: gate-da-prob-stats
 slug: 06-continuous-distributions
 date: "2026-06-21"
 
-# Add question IDs here when you have questions for this topic
-questions: []
-  # - Q101
+sections:
+  - heading: "Uniform Distribution"
+    questions: [Q501, Q502, Q503]
+  - heading: "Exponential Distribution"
+    questions: [Q504, Q505, Q506, Q510]
+  - heading: "Normal Distribution"
+    questions: [Q507, Q508, Q509]
