@@ -178,11 +178,16 @@ def generate_index(all_lectures: list, env: Environment):
 
 
 def copy_assets():
-    """Copy static assets (CSS, JS) to docs/assets/"""
+    """Copy static assets and robots.txt to docs/"""
     src = TEMPLATES_DIR / "assets"
     dst = DOCS_DIR / "assets"
     if src.exists():
         shutil.copytree(src, dst, dirs_exist_ok=True)
+    # Copy robots.txt to block search engine indexing
+    robots_src = TEMPLATES_DIR / "robots.txt"
+    if robots_src.exists():
+        shutil.copy(robots_src, DOCS_DIR / "robots.txt")
+        print(f"  [ROBOTS] docs/robots.txt", file=sys.stderr)
 
 
 def main():

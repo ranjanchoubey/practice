@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /
+
+# This site is for students only — shared via direct link or QR code.
+# © 2026 Ranjan Kumar Choubey — CC BY-NC 4.0

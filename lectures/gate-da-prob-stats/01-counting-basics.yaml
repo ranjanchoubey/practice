@@ -1,0 +1,14 @@
+title: "Counting, Permutations and Combinations"
+course: gate-da-prob-stats
+slug: 01-counting-basics
+date: "2026-06-21"
+
+description: >
+  Fundamental counting principles — multiplication rule, ordered pairs,
+  and combinatorial reasoning. (Cengage demo questions)
+
+questions:
+  - Q001
+  - Q002
+  - Q003
+  - Q004
